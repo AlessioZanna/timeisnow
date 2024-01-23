@@ -1,10 +1,10 @@
 import logo from './logo.svg';
-import Button from './button'
+import ButtonInput from './Components/buttonInput'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor:"red"}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <Button color="red" />
+        <ButtonInput color="red" />
       </header>
     </div>
   );
